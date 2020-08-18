@@ -48,7 +48,7 @@ login admin 12345
     * `skip` - cli application can wait your action to invoke **next()** function
     * `auto_clear` - clears everything after entered smth in console
 
-```javscript
+```javascript
 const cli = require('../index');
 
 const app = new cli();
@@ -134,6 +134,10 @@ app.set_info({ 'cmds': 'outputs info about commands' });
 ```
 
 # Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 # License
 [MIT](https://github.com/Bennibrovold/cli/blob/master/LICENSE)
